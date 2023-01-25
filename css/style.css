@@ -1,0 +1,137 @@
+/* font family */
+@font-face {
+    font-family: "Big noodle";
+    src: url("../font/big_noodle_titling.ttf") format("truetype");
+           
+   }
+
+nav{
+    display: flex!important;
+    align-items: baseline;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    position: absolute;
+    top: 30px;
+
+}
+nav img{
+    width: 82px; 
+}
+ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+    font-family: "Big noodle";
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+.nav-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;    
+}
+.nav-img img{
+    filter: opacity(0.8);
+    width: 90px;
+}
+
+.bar-nav{
+    margin: auto;
+    border-radius: 20px;
+    height: 5px;
+    width: 500px;
+    background-color: #126782;
+}
+
+.navbar-link{
+    margin-left: 0!important;
+    padding-left: 0!important;
+    padding-right: 50px!important;
+     
+}
+
+
+.first-title h1{
+    margin-top: 30px;
+    font-family: "Big noodle";
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+.presentation p{
+    margin-top: 50px;
+}
+
+.rounded-image{
+    margin-top: 100px;
+}
+
+.rounded-image img{
+    margin-right: 50px;
+
+}
+
+
+.title-carousel h2{
+    font-family: "Big noodle";
+    margin-top: 100px;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.carousel{
+    margin-top: 50px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+.second-title-carousel{
+    font-family: "Big noodle";
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.news h2{
+    font-family: "Big noodle";
+    margin-top: 100px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+.news a h3{
+    font-family: "Big noodle";
+    margin-top: 100px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    color: #111;
+}
+
+.sponsor h2{
+    font-family: "Big noodle";
+    margin-top: 100px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+.sponsor-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsor h3{
+    font-family: "Big noodle";
+    margin-top: 100px;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+    color: #111;
+}
+
+.background{
+    background-image: url("../img/site-principal/alkia\ fond\ sans\ bande\ 1.jpg") ;
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: #111;
+}
