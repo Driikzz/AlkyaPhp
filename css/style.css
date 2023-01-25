@@ -98,6 +98,8 @@ nav ul li{
     letter-spacing: 5px;
 }
 
+
+
 .news h2{
     font-family: "Big noodle";
     margin-top: 100px;
@@ -146,3 +148,30 @@ nav ul li{
 .page-footer{
     background-color: #fff;
 }
+
+/* page teams */
+
+
+.title-teams{
+    font-family: "Big noodle";
+    border: solid 6px #111;
+    border-radius: 50px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.cover-teams{
+    margin-bottom: -50px;
+}
+
+.teams-block{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-jeux{
+    width: 60px;
+
+}
+
