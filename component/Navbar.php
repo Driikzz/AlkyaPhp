@@ -1,9 +1,5 @@
 <!-- <?php
   require_once "php/config.php";
-   $sqlProject = "SELECT id,first_title_project FROM projects"; 
-   $pre = $pdo->prepare($sqlProject); 
-   $pre->execute();
-   $idProject = $pre->fetchAll(PDO::FETCH_ASSOC);
 ?> -->
 
 <header class="">
