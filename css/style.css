@@ -1,9 +1,12 @@
 /* font family */
 @font-face {
     font-family: "Big noodle";
-    src: url("../font/big_noodle_titling.ttf") format("truetype");
-           
+    src: url("../font/big_noodle_titling.ttf") format("truetype");    
    }
+
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* navbar */
 
 nav{
     display: flex!important;
@@ -54,7 +57,7 @@ nav ul li{
      
 }
 
-
+/* page d'acceuil */
 .first-title h1{
     margin-top: 30px;
     font-family: "Big noodle";
@@ -64,6 +67,7 @@ nav ul li{
 
 .presentation p{
     margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .rounded-image{
@@ -86,6 +90,7 @@ nav ul li{
     margin-top: 50px !important;
     margin-bottom: 0px !important;
     padding-bottom: 0px !important;
+    border-radius: 50px;
 }
 .second-title-carousel{
     font-family: "Big noodle";
@@ -129,6 +134,8 @@ nav ul li{
     color: #111;
 }
 
+
+/* background  */
 .background{
     background-image: url("../img/site-principal/alkia\ fond\ sans\ bande\ 1.jpg") ;
     background-repeat: repeat-y;
