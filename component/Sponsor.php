@@ -1,5 +1,5 @@
 <!-- <?php
-  require_once "php/config.php";
+  
   ?> -->
 
 <div class="sponsor center-align">
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <h3>Partenaires offficels</h3>
-            <div class="row">
+            <div class="">
                 <a class="responsive-img col s12 m3" href=""><img src="img/site-principal/1607166427283-DA - PNG 3 1.png" alt=""></a>
                 <a class="responsive-img col s12 m3" href=""><img src="img/site-principal/téléchargement-removebg-preview (3) 1.png" alt=""></a>
                 <a class="responsive-img col s12 m3" href=""><img src="img/site-principal/UNIVR-VERTIC-NOIR-TITRE-min 1.png" alt=""></a>
