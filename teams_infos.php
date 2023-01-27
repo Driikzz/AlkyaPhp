@@ -2,13 +2,14 @@
 
 <html>
     <head>
+        <title>Team Alkya</title>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <meta name="description" content="Ceci est notre portfolio, pour exposer notres travail, au monde entier !">
-        <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+        <link rel="icon" type="image/x-icon" href="img/site-principal/Logo Colored PNG 1.png">
     </head>
 
     <body>

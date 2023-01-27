@@ -3,4 +3,5 @@ $(document).ready(function(){
         fullWidth: true,
         indicators: true
       });
+    $('.sidenav').sidenav();
 });

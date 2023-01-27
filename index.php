@@ -3,12 +3,14 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <title>Team Alkya</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <meta name="description" content="Ceci est notre portfolio, pour exposer notres travail, au monde entier !">
-        <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+        <link rel="icon" type="image/x-icon" href="img/site-principal/Logo Colored PNG 1.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
         <div class="background container">
@@ -45,7 +47,7 @@
                   <a class="btn waves-effect white grey-text darken-text-2">button</a>
                 </div>
                 <div class="carousel-item white-text" href="#one!">
-                  <a href=""><img src="img/site-principal/image 2.png" alt=""></a>
+                  <a href=""><img class="responsive-img" src="img/site-principal/image 2.png" alt=""></a>
                 </div>
                 <div class="carousel-item amber white-text" href="#two!">
                   <h2>Second Panel</h2>

@@ -6,15 +6,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+p{
+    font-family: 'Roboto', sans-serif;
+}
 /* navbar */
+header{
+    margin: 0;
+    padding: 0;
+}
 
 nav{
     display: flex!important;
-    align-items: baseline;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: none;
-    position: absolute;
-    top: 30px;
+    margin-top: -100px;
 
 }
 nav img{
@@ -27,8 +34,7 @@ nav img{
 }
 nav ul li{
     font-family: "Big noodle";
-    font-size: 40px;
-    padding-right: 30px;
+    font-size: 35px;
 }
 
 .nav-img{
@@ -46,7 +52,7 @@ nav ul li{
     margin: auto;
     border-radius: 20px;
     height: 5px;
-    width: 500px;
+    width: 450px;
     background-color: #126782;
 }
 
@@ -164,7 +170,8 @@ nav ul li{
     font-family: "Big noodle";
     border: solid 6px #135066;
     border-radius: 50px;
-    width: 400px;
+    max-width: 400px;
+    min-width: 200px;
     margin: auto;
     text-align: center;
     margin-bottom: 200px;
@@ -225,7 +232,6 @@ nav ul li{
     margin-left: -50px;
     margin-bottom: 20px;
 }
-
 .card-description-player h3{
     font-family: "Big noodle";
     font-size: 40px;
@@ -233,60 +239,87 @@ nav ul li{
     letter-spacing: 2px;
     color: white;
 }
-
 .pseudo-player{
     color: #135066 !important;
     text-shadow: 3px 3px 2px white;
 }
-
 .card-description-player{
     margin-top: -250px;
     margin-left: 15px;
 }
-
-
-
 
 /* Footer  */
 
 .page-footer{
     background-color: #fff;
 }
-
 .flex-footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
 .cgu {
     font-family: "Big noodle";
     font-size: 30px;
- 
 }
-
 .networks {
     font-family: "Big noodle";
     justify-content: space-evenly;
-
 }
-
 .networks img {
     margin-right: 20px;
 }
-
 .info {
     font-size: 30px;
     font-family: "Big noodle";
 
 }
-
 footer {
     border-top: solid 1px black;
 }
-
 h2 {
     font-family: "Big noodle";
-
 }
 
+/* newspages */
+
+.technologie {
+    margin-top: 70px;
+    width: 100%;
+  }
+
+/* news */
+
+.title-news{
+    margin-top: 100px;
+}
+
+/* about */
+
+.about{
+    margin-top: 100px;
+}
+.about p{
+    margin-top: 100px;
+}
+
+.why-alkya{
+    margin-top: 100px;
+}
+
+.img-about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.staff-info img{
+    width: 180px;
+}
+
+.staff-info h3{
+    font-family: "Big noodle" ;
+    font-size: 30px;
+    margin-top: -10px;
+}
