@@ -91,7 +91,6 @@
         ?>
 
     </div>
-    
 
     <script src="js/jquery.js"></script> 
     <script src="js/materialize.min.js"></script> 
